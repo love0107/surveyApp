@@ -16,9 +16,9 @@ function Question(){
         <div className="rating-item">4</div>
         <div className="rating-item">5</div>
        </div>
-        <div className="my-button">
-            <button>Previous</button>
-            <button>Next</button>
+        <div className="button-box">
+            <button className="my-button ">Previous</button>
+            <button className="my-button ">Next</button>
         </div>
         </div>
         </>
