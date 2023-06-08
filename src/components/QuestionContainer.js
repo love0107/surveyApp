@@ -9,7 +9,7 @@ function QuestionContainer({ id }) {
 
   return (
     <div className="question-container" key={id}>
-      <div className="question-number">Ques. {id}</div>
+      <div className="question-number">{id+1}.</div>
       <p className="question">{content}</p>
     </div>
   );
