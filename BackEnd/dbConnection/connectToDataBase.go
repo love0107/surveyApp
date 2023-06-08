@@ -12,7 +12,7 @@ func Init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 
 	// Register database alias 'default'
-	orm.RegisterDataBase("default", "mysql", "root:Kreditbee@456@tcp(localhost:3306)/survey")
+	orm.RegisterDataBase("default", "mysql", "root:password@456@tcp(localhost:3306)/survey")
      // Set default database alias
 	orm.SetDataBaseTZ("default", time.UTC)
 
