@@ -1,4 +1,4 @@
-import './App.css';
+import React from "react"
 // import HomePage from './components/Dashboard';
 import Question from './components/Question';
 import Navbar from "./components/Navbar";
